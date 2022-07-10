@@ -13,7 +13,7 @@ function VideoCard({ videoSrc, title, content, callToAction, actionUrl }) {
             loop
             src={videoSrc}
           ></video>
-          <div className="relative h-full w-full bg-black/80 px-3  py-20 text-center text-white  sm:px-16 sm:pt-36">
+          <div className="relative h-full w-full bg-black/75 px-3  py-20 text-center text-white  sm:px-16 sm:pt-36">
             <div className=" mx-auto flex w-full flex-col items-center justify-center gap-6 md:max-w-4xl">
               <h1 className="title text-4xl font-bold tracking-tighter sm:text-5xl md:text-7xl">
                 {title}
@@ -22,7 +22,7 @@ function VideoCard({ videoSrc, title, content, callToAction, actionUrl }) {
                 {content}
               </p>
               <a href={actionUrl}>
-                <button className="action-btn rounded-full bg-white px-8 py-4 text-xl font-normal text-black">
+                <button className="action-btn rounded-full bg-white px-8 py-4 text-xl font-medium text-black transition delay-200 ease-in-out hover:bg-[#1d1d1f] hover:text-white">
                   {callToAction}
                 </button>
               </a>
