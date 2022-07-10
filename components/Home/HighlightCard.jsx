@@ -18,7 +18,7 @@ export default function HighlightCard() {
             <h1 className="w-full text-3xl font-semibold text-[#1d1d1f] md:max-w-md">
               Businesses make an average of 11% more within 20 days of setup.
             </h1>
-            <button className="mt-6 flex  items-center justify-center rounded-full bg-[#007AFF] py-4 px-8 text-xl text-white">
+            <button className="mt-6 flex  items-center justify-center rounded-full bg-[#007AFF] py-4 px-8 text-xl text-white transition delay-200 ease-in-out hover:bg-[#1d1d1f] hover:text-white">
               Book a Demo
             </button>
           </div>
