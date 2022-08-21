@@ -37,16 +37,17 @@ function UseCases() {
               <div className="min-h-32 overflow-hidden rounded-t-3xl ">
                 <div className="relative overflow-hidden bg-cover bg-no-repeat">
                   <img
-                    src="https://uploads-ssl.webflow.com/61024a7430eba45e0ea58f0c/62457889878fd29b45c326db_image%20325.jpeg"
-                    className="h-72 w-full object-cover object-center transition duration-300 ease-in-out hover:scale-125"
+                    src="/images/useCase1.jpeg"
+                    className="h-72 w-full object-cover object-center transition delay-150 duration-300 ease-in-out group-hover:scale-125"
                     alt="Blog Post"
+                    loading="lazy"
                   />
                   <div className="absolute top-4 right-4 rounded-md bg-[#007aff] py-[1px] px-1 text-xs text-white">
                     Case Study
                   </div>
                 </div>
               </div>
-              <section className="h-24 rounded-b-3xl bg-[#f1f4f6] py-6 px-5 transition duration-100 ease-in hover:-translate-y-8">
+              <section className="h-24 rounded-b-3xl bg-[#f1f4f6] py-6 px-5 transition delay-150 duration-300 ease-in group-hover:-translate-y-8">
                 <h2 className="mb-4 text-xl font-semibold text-[#1d1d1f]">
                   Beyond The Vines – apparel and beyond
                 </h2>
@@ -67,25 +68,27 @@ function UseCases() {
               <div className="min-h-32 overflow-hidden rounded-t-3xl ">
                 <div className="relative overflow-hidden bg-cover bg-no-repeat">
                   <img
-                    src="https://uploads-ssl.webflow.com/61024a7430eba45e0ea58f0c/62457889878fd29b45c326db_image%20325.jpeg"
-                    className="h-72 w-full object-cover object-center transition duration-300 ease-in-out hover:scale-125"
+                    src="/images/useCase2.jpeg"
+                    className="h-72 w-full object-cover object-center transition delay-150 duration-300 ease-in-out group-hover:scale-125"
                     alt="Blog Post"
+                    loading="lazy"
                   />
                   <div className="absolute top-4 right-4 rounded-md bg-[#007aff] py-[1px] px-1 text-xs text-white">
                     Case Study
                   </div>
                 </div>
               </div>
-              <section className="h-24 rounded-b-3xl bg-[#f1f4f6] py-6 px-5 transition duration-100 ease-in hover:-translate-y-8">
+              <section className="h-24 rounded-b-3xl bg-[#f1f4f6] py-6 px-5 transition delay-150 duration-300 ease-in group-hover:-translate-y-8">
                 <h2 className="mb-4 text-xl font-semibold text-[#1d1d1f]">
-                  Beyond The Vines – apparel and beyond
+                  Snackright — you walnut believe this!
                 </h2>
                 <div className="items-center text-xs text-[#1d1d1f]">
-                  February 15, 2022
+                  August 5, 2021
                 </div>
                 <div className="mt-0 translate-y-2.5 pt-0 text-xs text-[#1d1d1f]">
-                  In 2 weeks, Beyond The Vines saw an AB-tested 11% increase in
-                  their revenue per session!
+                  In less than 30-days, Snackright increased their store-wide
+                  conversion rate by 75% using Suggestr&apos;s AI-driven selling
+                  strategies.
                 </div>
               </section>
             </article>

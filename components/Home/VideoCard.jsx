@@ -22,7 +22,7 @@ function VideoCard({ videoSrc, title, content, callToAction, actionUrl }) {
                 {content}
               </p>
               <a href={actionUrl}>
-                <button className="action-btn rounded-full bg-white px-8 py-4 text-xl font-medium text-black transition delay-200 ease-in-out hover:bg-[#1d1d1f] hover:text-white">
+                <button className="action-btn rounded-full bg-white px-8 py-4 text-xl font-medium text-black transition delay-100 duration-200 ease-in-out hover:bg-[#1d1d1f] hover:text-white">
                   {callToAction}
                 </button>
               </a>

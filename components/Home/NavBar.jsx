@@ -8,8 +8,9 @@ function NavBar() {
         <div className="container top-5 z-50 mx-auto flex w-11/12 items-center justify-between rounded-full border-2 border-gray-100 bg-white p-2 text-sm shadow-sm md:max-w-4xl md:flex-row md:justify-center md:gap-4">
           <div className=" flex-1 items-center justify-center">
             <img
-              src="https://uploads-ssl.webflow.com/61024a7430eba47b88a58edb/6103b98f1083a01f0828c8df_123.png"
-              alt="Logo"
+              src="/logos/logo.png"
+              alt="Suggester"
+              loading="lazy"
               className="h-6 w-36 object-cover"
             />
           </div>

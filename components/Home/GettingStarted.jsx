@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy } from "react";
 
 function GettingStarted() {
   return (
@@ -11,7 +11,8 @@ function GettingStarted() {
             autoPlay
             muted
             loop
-            src="https://uploads-ssl.webflow.com/61024a7430eba47b88a58edb/61028984acbd6e83fb0fd7ea_woman_buying_online_on_wide_screen_computer_2021_04_02_15_26_21-transcode.mp4"
+            loading={lazy}
+            src="/videos/start.webm"
           ></video>
         </div>
         <div className="h-full w-full overflow-hidden rounded-3xl bg-[#f1f4f6] p-4 text-[#1d1d1f] md:w-[50%] md:p-10 lg:h-[600px]">
